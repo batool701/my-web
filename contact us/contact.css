@@ -1,0 +1,33 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: black;
+    font-family: Algerian;
+    background-color: black;
+    color:purple ;
+    font-size: 20px;
+}
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px purple;
+    box-shadow:  50px purple;
+    border-radius : 50%;            
+}
+.about-content h2{
+    text-align: left;
+    color: purple;
+    font-size: 42px;
+    font-family: Algerian;
+}
+.about-content h3{
+    font-size: 40px;
+    color: pink;
+}
+.about-content p{
+    color: purple;
+    font-size: 60px;
+    margin: 2em;
+}

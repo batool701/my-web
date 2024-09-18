@@ -1,0 +1,25 @@
+body{
+    background-color: hwb(310 2% 21%);
+    color: rgb(20, 13, 15);
+}
+.span{
+    color: white;
+}
+.headind{
+    font-size: 40px;
+    font-family: Agency FB Bold;
+    color: pink;
+    align-items: center;
+}
+.heading span{
+    color: white;
+}
+.sub{
+    color: black;
+}
+.sub span{
+    color: white;
+}
+.sub p{
+    font-size: 400px;
+}

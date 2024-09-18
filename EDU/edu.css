@@ -1,0 +1,58 @@
+
+ .heading{
+    font-size: 40px;
+    font-family: Agency FB Bold;
+    color: pink;
+    align-items: center;
+}
+.heading span{
+    color: purple;
+}
+
+
+.Education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0; 
+    padding-left: 3rem;
+    background-color: purple;
+}
+.Education .box-container .box{
+  width: 27rem;
+  margin: 4rem 1rem;
+  padding-left: 4rem;
+  border-left: .2rem solid #fff;
+  position: relative;  
+}
+.Education .box-container .box span{
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem; 
+}
+.Education .box-container .box h3{
+    font-size: 2rem;
+    color: pink; 
+    padding-top: 1.5rem;
+}
+.Education .box-container .box p{
+    font-size: 1.4rem;
+    color:#fff;
+    padding: 1rem 0;
+}
+.Education .box-container.box i{
+position: absolute;
+top:-1.5rem; left:-2.5rem;
+height:5rem;
+width:5rem;
+border-radius: 50%;
+line-height: 5rem;
+text-align: center;
+font-size: 2rem;
+color: #fff;
+background: var(#ff0077);
+}
+

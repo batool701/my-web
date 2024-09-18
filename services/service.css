@@ -1,0 +1,61 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #020101;
+}
+
+.title h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: hsl(332, 71%, 48%);
+}
+
+.Box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Makes the cards wrap to the next line if there's not enough space */
+}
+
+.Card {
+    background-color: hsl(340, 80%, 53%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Set a fixed width for uniformity */
+    box-shadow: 0 5px 15px #fc32bf1a;
+    transition: transform 0.3s;
+}
+
+.Card:hover {
+    transform: translateY(-10px);
+}
+
+.Card h5 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.pra p {
+    margin-bottom: 15px;
+    color: rgba(10, 3, 3, 0.644);
+}
+
+.button {
+    background-color: #020101;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: hsl(320, 63%, 46%);
+}

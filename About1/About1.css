@@ -1,0 +1,83 @@
+ :root {
+    --purple: #800080; /* Example purple color */
+}
+.heading {
+    background-color:pink;
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid pink;
+    color: #800080; /* White with 90% opacity */
+}
+
+.heading span {
+    color: var(--purple); /* Ensure --purple is defined */
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    background-color: #800080;
+}
+
+.about .row .info {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+.about .row .counter {
+    flex: 1 1 48rem; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+ }
+.about .row .info h3 {
+    font-size: 2rem;
+    color:var(pink);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.about .row .info h3 span {
+    color: #eee; 
+    padding: 0 .5rem; 
+}
+
+
+.about .row .counter .box{
+   width: 20rem; 
+   background: #fc3196;
+   text-align: center;
+   padding: 2rem;
+   margin: 2rem;
+}
+.about .row .counter .box span{
+   font-size: 4rem;
+   color: var(pink);
+ 
+}
+.about .row .counter .box h3{
+    font-size: 2rem;
+    color: var(pink); 
+}
+ .box {
+    flex: 1 1 20%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.box span {
+    font-size: 1;
+    display: block;
+    color: var(--purple);
+}
+
+.box h3 {
+    font-size: 1.5rem;
+    color: #fff;
+}  

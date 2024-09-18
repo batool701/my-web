@@ -1,0 +1,34 @@
+body{
+    background-color: hsl(310, 82%, 49%);
+    color: rgb(20, 13, 15);
+}
+.span{
+    color: white;
+}
+.headind{
+    font-size: 40px;
+    font-family: Agency FB Bold;
+    color: pink;
+    align-items: center;
+}
+.heading span{
+    color: white;
+}
+.Offer{
+    font-size: 40px;
+    font-family: Agency FB Bold;
+    color: #201113;
+    align-items: center;
+}
+.Offer span{
+    color: white;
+}
+.work{
+    font-size: 40px;
+    font-family: Agency FB Bold;
+    color: #201113;
+    align-items: center;
+}
+.work span{
+    color: white;
+}
